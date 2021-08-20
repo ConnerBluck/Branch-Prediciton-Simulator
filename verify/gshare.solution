@@ -1,0 +1,1632 @@
+TRACE: gcc.br.trace
+CONF: -O 1 -G 12 -D
+SIMULATION CONFIGURATION
+G:          12
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 42
+2: 76
+3: 74
+4: 61
+5: 34
+6: 62
+7: 55
+8: 43
+9: 72
+10: 64
+11: 55
+12: 11
+13: 38
+14: 32
+15: 41
+16: 35
+17: 50
+18: 70
+19: 84
+20: 67
+21: 69
+22: 94
+23: 87
+24: 127
+25: 112
+26: 90
+27: 110
+28: 112
+29: 124
+30: 126
+31: 112
+32: 101
+33: 101
+34: 110
+35: 122
+36: 114
+37: 112
+38: 114
+39: 100
+40: 100
+41: 86
+42: 92
+43: 138
+44: 127
+45: 164
+46: 183
+47: 161
+48: 177
+49: 175
+50: 167
+51: 161
+52: 170
+53: 166
+54: 181
+55: 182
+56: 179
+57: 133
+58: 162
+59: 148
+60: 153
+61: 187
+62: 181
+63: 175
+64: 130
+65: 139
+66: 150
+67: 152
+68: 146
+69: 141
+70: 162
+71: 162
+72: 145
+73: 167
+74: 154
+75: 131
+76: 148
+77: 142
+78: 152
+79: 147
+80: 148
+81: 137
+82: 176
+83: 147
+84: 167
+85: 150
+86: 158
+87: 153
+88: 154
+89: 187
+90: 174
+91: 156
+92: 176
+93: 171
+94: 182
+95: 137
+96: 132
+97: 101
+98: 149
+99: 166
+100: 117
+
+SIMULATION OUTPUT
+Total Instructions:                 48854371
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       8749160
+Branches Miss Predicted:            1250840
+Misses Per Kilo Instructions:       25
+Number of Tag conflicts             2415257
+Fraction Branch Instructions:       0.20468998
+Branch Prediction accuracy:         0.87491600
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.05120688
+
+
+
+TRACE: mcf.br.trace
+CONF: -O 1 -G 12 -D
+SIMULATION CONFIGURATION
+G:          12
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 71
+2: 18
+3: 17
+4: 18
+5: 18
+6: 18
+7: 17
+8: 18
+9: 18
+10: 17
+11: 17
+12: 17
+13: 18
+14: 18
+15: 17
+16: 17
+17: 18
+18: 17
+19: 17
+20: 17
+21: 18
+22: 18
+23: 18
+24: 17
+25: 18
+26: 18
+27: 17
+28: 17
+29: 18
+30: 18
+31: 17
+32: 17
+33: 18
+34: 17
+35: 18
+36: 17
+37: 18
+38: 17
+39: 18
+40: 17
+41: 18
+42: 17
+43: 18
+44: 17
+45: 18
+46: 17
+47: 18
+48: 17
+49: 17
+50: 18
+51: 18
+52: 17
+53: 17
+54: 18
+55: 18
+56: 17
+57: 17
+58: 18
+59: 18
+60: 17
+61: 18
+62: 18
+63: 18
+64: 18
+65: 17
+66: 18
+67: 18
+68: 18
+69: 17
+70: 18
+71: 18
+72: 18
+73: 17
+74: 18
+75: 17
+76: 18
+77: 17
+78: 17
+79: 18
+80: 18
+81: 17
+82: 18
+83: 18
+84: 18
+85: 17
+86: 17
+87: 18
+88: 18
+89: 17
+90: 17
+91: 18
+92: 18
+93: 17
+94: 17
+95: 18
+96: 18
+97: 17
+98: 17
+99: 17
+100: 16
+
+SIMULATION OUTPUT
+Total Instructions:                 48066074
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       9814883
+Branches Miss Predicted:            185117
+Misses Per Kilo Instructions:       3
+Number of Tag conflicts             218209
+Fraction Branch Instructions:       0.20804695
+Branch Prediction accuracy:         0.98148830
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.00770261
+
+
+
+TRACE: perlbench.br.trace
+CONF: -O 1 -G 12 -D
+SIMULATION CONFIGURATION
+G:          12
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 113
+2: 79
+3: 171
+4: 243
+5: 188
+6: 226
+7: 82
+8: 61
+9: 62
+10: 70
+11: 60
+12: 62
+13: 147
+14: 179
+15: 177
+16: 165
+17: 187
+18: 131
+19: 84
+20: 214
+21: 206
+22: 232
+23: 195
+24: 158
+25: 92
+26: 16
+27: 157
+28: 196
+29: 218
+30: 201
+31: 188
+32: 246
+33: 187
+34: 226
+35: 202
+36: 199
+37: 201
+38: 188
+39: 185
+40: 199
+41: 206
+42: 190
+43: 189
+44: 233
+45: 219
+46: 213
+47: 233
+48: 101
+49: 226
+50: 202
+51: 193
+52: 199
+53: 193
+54: 172
+55: 180
+56: 226
+57: 186
+58: 203
+59: 199
+60: 118
+61: 164
+62: 172
+63: 176
+64: 193
+65: 237
+66: 211
+67: 245
+68: 214
+69: 81
+70: 74
+71: 137
+72: 208
+73: 174
+74: 154
+75: 163
+76: 176
+77: 173
+78: 157
+79: 134
+80: 140
+81: 152
+82: 136
+83: 145
+84: 150
+85: 137
+86: 140
+87: 144
+88: 144
+89: 136
+90: 129
+91: 134
+92: 85
+93: 128
+94: 186
+95: 158
+96: 211
+97: 174
+98: 151
+99: 205
+100: 234
+
+SIMULATION OUTPUT
+Total Instructions:                 48574320
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       8321516
+Branches Miss Predicted:            1678484
+Misses Per Kilo Instructions:       34
+Number of Tag conflicts             3136924
+Fraction Branch Instructions:       0.20587010
+Branch Prediction accuracy:         0.83215160
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.06910993
+
+
+
+TRACE: x264.br.trace
+CONF: -O 1 -G 12 -D
+SIMULATION CONFIGURATION
+G:          12
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 92
+2: 0
+3: 1
+4: 1
+5: 5
+6: 6
+7: 131
+8: 130
+9: 122
+10: 127
+11: 124
+12: 127
+13: 112
+14: 123
+15: 117
+16: 129
+17: 116
+18: 126
+19: 114
+20: 122
+21: 132
+22: 116
+23: 130
+24: 118
+25: 126
+26: 124
+27: 127
+28: 116
+29: 134
+30: 119
+31: 127
+32: 124
+33: 126
+34: 129
+35: 118
+36: 125
+37: 127
+38: 127
+39: 125
+40: 121
+41: 124
+42: 126
+43: 127
+44: 131
+45: 135
+46: 123
+47: 127
+48: 134
+49: 126
+50: 124
+51: 129
+52: 128
+53: 134
+54: 128
+55: 123
+56: 125
+57: 127
+58: 116
+59: 130
+60: 118
+61: 120
+62: 115
+63: 120
+64: 121
+65: 117
+66: 128
+67: 114
+68: 131
+69: 119
+70: 126
+71: 124
+72: 113
+73: 131
+74: 117
+75: 132
+76: 120
+77: 121
+78: 130
+79: 112
+80: 133
+81: 123
+82: 127
+83: 126
+84: 127
+85: 133
+86: 126
+87: 119
+88: 124
+89: 123
+90: 125
+91: 130
+92: 121
+93: 122
+94: 131
+95: 123
+96: 126
+97: 128
+98: 124
+99: 125
+100: 127
+
+SIMULATION OUTPUT
+Total Instructions:                 97307048
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       8814644
+Branches Miss Predicted:            1185356
+Misses Per Kilo Instructions:       12
+Number of Tag conflicts             1565519
+Fraction Branch Instructions:       0.10276748
+Branch Prediction accuracy:         0.88146440
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.02436321
+
+
+
+TRACE: gcc.br.trace
+CONF: -D -O 1 -G 15
+SIMULATION CONFIGURATION
+G:          15
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 42
+2: 76
+3: 72
+4: 61
+5: 24
+6: 52
+7: 38
+8: 24
+9: 36
+10: 34
+11: 34
+12: 11
+13: 34
+14: 24
+15: 23
+16: 26
+17: 41
+18: 67
+19: 69
+20: 58
+21: 58
+22: 73
+23: 38
+24: 74
+25: 43
+26: 32
+27: 51
+28: 42
+29: 41
+30: 38
+31: 40
+32: 34
+33: 32
+34: 40
+35: 39
+36: 36
+37: 36
+38: 36
+39: 37
+40: 39
+41: 31
+42: 28
+43: 85
+44: 55
+45: 86
+46: 87
+47: 65
+48: 71
+49: 72
+50: 61
+51: 54
+52: 56
+53: 56
+54: 74
+55: 70
+56: 58
+57: 31
+58: 64
+59: 50
+60: 49
+61: 72
+62: 63
+63: 61
+64: 49
+65: 54
+66: 55
+67: 52
+68: 52
+69: 47
+70: 54
+71: 63
+72: 52
+73: 63
+74: 53
+75: 46
+76: 47
+77: 46
+78: 49
+79: 47
+80: 46
+81: 44
+82: 65
+83: 61
+84: 57
+85: 51
+86: 67
+87: 60
+88: 63
+89: 84
+90: 70
+91: 67
+92: 73
+93: 77
+94: 74
+95: 61
+96: 49
+97: 34
+98: 58
+99: 66
+100: 38
+
+SIMULATION OUTPUT
+Total Instructions:                 48854371
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       9475187
+Branches Miss Predicted:            524813
+Misses Per Kilo Instructions:       10
+Number of Tag conflicts             665650
+Fraction Branch Instructions:       0.20468998
+Branch Prediction accuracy:         0.94751870
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.02148479
+
+
+
+TRACE: mcf.br.trace
+CONF: -D -O 1 -G 15
+SIMULATION CONFIGURATION
+G:          15
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 72
+2: 18
+3: 17
+4: 18
+5: 18
+6: 17
+7: 17
+8: 17
+9: 17
+10: 17
+11: 17
+12: 17
+13: 17
+14: 17
+15: 17
+16: 17
+17: 17
+18: 17
+19: 17
+20: 17
+21: 17
+22: 17
+23: 17
+24: 17
+25: 17
+26: 17
+27: 17
+28: 17
+29: 17
+30: 17
+31: 17
+32: 17
+33: 17
+34: 17
+35: 17
+36: 17
+37: 17
+38: 17
+39: 17
+40: 17
+41: 17
+42: 17
+43: 17
+44: 17
+45: 17
+46: 17
+47: 17
+48: 17
+49: 17
+50: 17
+51: 17
+52: 17
+53: 17
+54: 17
+55: 17
+56: 17
+57: 17
+58: 17
+59: 17
+60: 17
+61: 17
+62: 17
+63: 17
+64: 17
+65: 17
+66: 17
+67: 17
+68: 17
+69: 17
+70: 17
+71: 17
+72: 17
+73: 17
+74: 17
+75: 17
+76: 17
+77: 17
+78: 17
+79: 17
+80: 17
+81: 17
+82: 17
+83: 17
+84: 17
+85: 17
+86: 17
+87: 17
+88: 17
+89: 17
+90: 17
+91: 17
+92: 17
+93: 17
+94: 17
+95: 17
+96: 17
+97: 17
+98: 17
+99: 17
+100: 16
+
+SIMULATION OUTPUT
+Total Instructions:                 48066074
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       9815997
+Branches Miss Predicted:            184003
+Misses Per Kilo Instructions:       3
+Number of Tag conflicts             59098
+Fraction Branch Instructions:       0.20804695
+Branch Prediction accuracy:         0.98159970
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.00765625
+
+
+
+TRACE: perlbench.br.trace
+CONF: -D -O 1 -G 15
+SIMULATION CONFIGURATION
+G:          15
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 114
+2: 58
+3: 133
+4: 165
+5: 101
+6: 108
+7: 37
+8: 18
+9: 18
+10: 21
+11: 17
+12: 18
+13: 72
+14: 83
+15: 85
+16: 81
+17: 94
+18: 78
+19: 58
+20: 120
+21: 113
+22: 124
+23: 89
+24: 82
+25: 52
+26: 9
+27: 80
+28: 95
+29: 107
+30: 115
+31: 127
+32: 142
+33: 94
+34: 107
+35: 100
+36: 114
+37: 105
+38: 102
+39: 85
+40: 97
+41: 102
+42: 86
+43: 88
+44: 129
+45: 106
+46: 113
+47: 136
+48: 56
+49: 118
+50: 99
+51: 91
+52: 133
+53: 101
+54: 81
+55: 84
+56: 149
+57: 94
+58: 104
+59: 99
+60: 62
+61: 73
+62: 91
+63: 92
+64: 109
+65: 139
+66: 108
+67: 111
+68: 68
+69: 33
+70: 32
+71: 58
+72: 100
+73: 77
+74: 51
+75: 61
+76: 79
+77: 75
+78: 59
+79: 50
+80: 49
+81: 58
+82: 50
+83: 54
+84: 60
+85: 53
+86: 59
+87: 53
+88: 57
+89: 49
+90: 46
+91: 54
+92: 53
+93: 71
+94: 84
+95: 72
+96: 91
+97: 82
+98: 91
+99: 109
+100: 109
+
+SIMULATION OUTPUT
+Total Instructions:                 48574320
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       9163153
+Branches Miss Predicted:            836847
+Misses Per Kilo Instructions:       17
+Number of Tag conflicts             1062029
+Fraction Branch Instructions:       0.20587010
+Branch Prediction accuracy:         0.91631530
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.03445635
+
+
+
+TRACE: x264.br.trace
+CONF: -D -O 1 -G 15
+SIMULATION CONFIGURATION
+G:          15
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 94
+2: 0
+3: 1
+4: 2
+5: 5
+6: 6
+7: 108
+8: 84
+9: 74
+10: 75
+11: 68
+12: 74
+13: 60
+14: 69
+15: 62
+16: 73
+17: 59
+18: 70
+19: 59
+20: 65
+21: 74
+22: 63
+23: 73
+24: 62
+25: 70
+26: 65
+27: 69
+28: 61
+29: 73
+30: 63
+31: 70
+32: 66
+33: 68
+34: 72
+35: 65
+36: 68
+37: 71
+38: 72
+39: 70
+40: 65
+41: 67
+42: 71
+43: 71
+44: 72
+45: 78
+46: 67
+47: 70
+48: 78
+49: 70
+50: 66
+51: 70
+52: 72
+53: 75
+54: 72
+55: 66
+56: 67
+57: 69
+58: 62
+59: 75
+60: 61
+61: 67
+62: 60
+63: 65
+64: 64
+65: 59
+66: 70
+67: 58
+68: 74
+69: 64
+70: 72
+71: 66
+72: 58
+73: 74
+74: 60
+75: 77
+76: 62
+77: 63
+78: 74
+79: 58
+80: 74
+81: 66
+82: 68
+83: 70
+84: 70
+85: 74
+86: 70
+87: 64
+88: 69
+89: 66
+90: 65
+91: 72
+92: 65
+93: 69
+94: 71
+95: 66
+96: 68
+97: 68
+98: 66
+99: 71
+100: 69
+
+SIMULATION OUTPUT
+Total Instructions:                 97307048
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       9339704
+Branches Miss Predicted:            660296
+Misses Per Kilo Instructions:       6
+Number of Tag conflicts             377892
+Fraction Branch Instructions:       0.10276748
+Branch Prediction accuracy:         0.93397040
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.01357139
+
+
+
+TRACE: gcc.br.trace
+CONF: -D -O 1 -G 8
+SIMULATION CONFIGURATION
+G:          8
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 55
+2: 120
+3: 151
+4: 75
+5: 103
+6: 151
+7: 205
+8: 203
+9: 271
+10: 230
+11: 175
+12: 11
+13: 74
+14: 136
+15: 192
+16: 154
+17: 86
+18: 91
+19: 240
+20: 121
+21: 120
+22: 212
+23: 270
+24: 294
+25: 300
+26: 282
+27: 267
+28: 291
+29: 313
+30: 319
+31: 300
+32: 310
+33: 302
+34: 300
+35: 301
+36: 298
+37: 298
+38: 301
+39: 269
+40: 281
+41: 295
+42: 324
+43: 308
+44: 298
+45: 344
+46: 357
+47: 342
+48: 350
+49: 358
+50: 356
+51: 360
+52: 359
+53: 366
+54: 356
+55: 357
+56: 377
+57: 376
+58: 335
+59: 331
+60: 335
+61: 362
+62: 364
+63: 365
+64: 312
+65: 316
+66: 348
+67: 344
+68: 328
+69: 328
+70: 358
+71: 338
+72: 321
+73: 346
+74: 351
+75: 307
+76: 351
+77: 329
+78: 342
+79: 341
+80: 351
+81: 330
+82: 356
+83: 329
+84: 366
+85: 347
+86: 334
+87: 321
+88: 323
+89: 356
+90: 371
+91: 347
+92: 343
+93: 341
+94: 347
+95: 316
+96: 315
+97: 335
+98: 350
+99: 344
+100: 340
+
+SIMULATION OUTPUT
+Total Instructions:                 48854371
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       7097823
+Branches Miss Predicted:            2902177
+Misses Per Kilo Instructions:       59
+Number of Tag conflicts             6015077
+Fraction Branch Instructions:       0.20468998
+Branch Prediction accuracy:         0.70978230
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.11880931
+
+
+
+TRACE: mcf.br.trace
+CONF: -D -O 1 -G 8
+SIMULATION CONFIGURATION
+G:          8
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 130
+2: 111
+3: 115
+4: 115
+5: 115
+6: 115
+7: 115
+8: 111
+9: 110
+10: 110
+11: 110
+12: 110
+13: 110
+14: 110
+15: 110
+16: 110
+17: 110
+18: 110
+19: 110
+20: 110
+21: 110
+22: 110
+23: 110
+24: 110
+25: 110
+26: 110
+27: 110
+28: 110
+29: 110
+30: 110
+31: 110
+32: 110
+33: 110
+34: 110
+35: 110
+36: 110
+37: 110
+38: 110
+39: 110
+40: 110
+41: 110
+42: 110
+43: 110
+44: 110
+45: 110
+46: 110
+47: 110
+48: 110
+49: 110
+50: 110
+51: 110
+52: 110
+53: 110
+54: 110
+55: 110
+56: 110
+57: 110
+58: 110
+59: 110
+60: 110
+61: 110
+62: 110
+63: 110
+64: 110
+65: 110
+66: 110
+67: 110
+68: 110
+69: 110
+70: 110
+71: 110
+72: 110
+73: 110
+74: 110
+75: 110
+76: 110
+77: 110
+78: 110
+79: 110
+80: 110
+81: 110
+82: 110
+83: 110
+84: 110
+85: 110
+86: 110
+87: 110
+88: 110
+89: 110
+90: 110
+91: 110
+92: 110
+93: 110
+94: 110
+95: 110
+96: 110
+97: 109
+98: 106
+99: 128
+100: 130
+
+SIMULATION OUTPUT
+Total Instructions:                 48066074
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       8885926
+Branches Miss Predicted:            1114074
+Misses Per Kilo Instructions:       23
+Number of Tag conflicts             3667546
+Fraction Branch Instructions:       0.20804695
+Branch Prediction accuracy:         0.88859260
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.04635594
+
+
+
+TRACE: perlbench.br.trace
+CONF: -D -O 1 -G 8
+SIMULATION CONFIGURATION
+G:          8
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 146
+2: 269
+3: 304
+4: 369
+5: 339
+6: 376
+7: 288
+8: 247
+9: 250
+10: 255
+11: 246
+12: 253
+13: 317
+14: 339
+15: 323
+16: 315
+17: 330
+18: 240
+19: 191
+20: 363
+21: 364
+22: 378
+23: 360
+24: 294
+25: 210
+26: 106
+27: 294
+28: 337
+29: 366
+30: 321
+31: 284
+32: 379
+33: 358
+34: 389
+35: 368
+36: 340
+37: 371
+38: 320
+39: 335
+40: 351
+41: 368
+42: 357
+43: 354
+44: 353
+45: 382
+46: 356
+47: 377
+48: 254
+49: 367
+50: 366
+51: 354
+52: 298
+53: 366
+54: 350
+55: 343
+56: 315
+57: 348
+58: 353
+59: 360
+60: 283
+61: 288
+62: 321
+63: 312
+64: 309
+65: 367
+66: 364
+67: 384
+68: 382
+69: 329
+70: 285
+71: 322
+72: 366
+73: 321
+74: 314
+75: 315
+76: 316
+77: 315
+78: 301
+79: 278
+80: 298
+81: 294
+82: 277
+83: 290
+84: 297
+85: 281
+86: 259
+87: 288
+88: 279
+89: 287
+90: 281
+91: 282
+92: 275
+93: 272
+94: 360
+95: 336
+96: 368
+97: 306
+98: 297
+99: 370
+100: 381
+
+SIMULATION OUTPUT
+Total Instructions:                 48574320
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       6819933
+Branches Miss Predicted:            3180067
+Misses Per Kilo Instructions:       65
+Number of Tag conflicts             6112349
+Fraction Branch Instructions:       0.20587010
+Branch Prediction accuracy:         0.68199330
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.13093614
+
+
+
+TRACE: x264.br.trace
+CONF: -D -O 1 -G 8
+SIMULATION CONFIGURATION
+G:          8
+P:          10
+N:          5
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+DEBUG OUTPUT
+Printing debug MPKI for [interval=100000]
+Interval Number: Interval MPKI
+1: 112
+2: 0
+3: 1
+4: 2
+5: 7
+6: 9
+7: 245
+8: 259
+9: 253
+10: 262
+11: 256
+12: 253
+13: 253
+14: 254
+15: 254
+16: 254
+17: 255
+18: 252
+19: 255
+20: 253
+21: 257
+22: 258
+23: 257
+24: 254
+25: 258
+26: 259
+27: 253
+28: 251
+29: 260
+30: 251
+31: 252
+32: 252
+33: 252
+34: 254
+35: 249
+36: 252
+37: 259
+38: 250
+39: 255
+40: 253
+41: 251
+42: 259
+43: 252
+44: 259
+45: 261
+46: 259
+47: 257
+48: 248
+49: 256
+50: 254
+51: 255
+52: 253
+53: 255
+54: 257
+55: 254
+56: 254
+57: 255
+58: 250
+59: 261
+60: 255
+61: 260
+62: 260
+63: 262
+64: 249
+65: 250
+66: 251
+67: 258
+68: 252
+69: 260
+70: 250
+71: 251
+72: 251
+73: 257
+74: 255
+75: 248
+76: 254
+77: 249
+78: 261
+79: 244
+80: 252
+81: 261
+82: 252
+83: 250
+84: 251
+85: 254
+86: 259
+87: 245
+88: 249
+89: 258
+90: 248
+91: 252
+92: 254
+93: 251
+94: 254
+95: 246
+96: 251
+97: 251
+98: 250
+99: 254
+100: 260
+
+SIMULATION OUTPUT
+Total Instructions:                 97307048
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       7593995
+Branches Miss Predicted:            2406005
+Misses Per Kilo Instructions:       24
+Number of Tag conflicts             4267671
+Fraction Branch Instructions:       0.10276748
+Branch Prediction accuracy:         0.75939950
+Total Stages in the Pipeline:       5
+Branch Miss Prediction Stalls:      2
+Average CPI:                        1.04945181
+
+
+
+TRACE: gcc.br.trace
+CONF: -N 10
+SIMULATION CONFIGURATION
+G:          10
+P:          10
+N:          10
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+Total Instructions:                 48854371
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       7940070
+Branches Miss Predicted:            2059930
+Misses Per Kilo Instructions:       42
+Number of Tag conflicts             4296510
+Fraction Branch Instructions:       0.20468998
+Branch Prediction accuracy:         0.79400700
+Total Stages in the Pipeline:       10
+Branch Miss Prediction Stalls:      4
+Average CPI:                        1.16865881
+
+
+
+TRACE: mcf.br.trace
+CONF: -N 10
+SIMULATION CONFIGURATION
+G:          10
+P:          10
+N:          10
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+Total Instructions:                 48066074
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       9520921
+Branches Miss Predicted:            479079
+Misses Per Kilo Instructions:       9
+Number of Tag conflicts             816113
+Fraction Branch Instructions:       0.20804695
+Branch Prediction accuracy:         0.95209210
+Total Stages in the Pipeline:       10
+Branch Miss Prediction Stalls:      4
+Average CPI:                        1.03986837
+
+
+
+TRACE: perlbench.br.trace
+CONF: -N 10
+SIMULATION CONFIGURATION
+G:          10
+P:          10
+N:          10
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+Total Instructions:                 48574320
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       7512226
+Branches Miss Predicted:            2487774
+Misses Per Kilo Instructions:       51
+Number of Tag conflicts             4827359
+Fraction Branch Instructions:       0.20587010
+Branch Prediction accuracy:         0.75122260
+Total Stages in the Pipeline:       10
+Branch Miss Prediction Stalls:      4
+Average CPI:                        1.20486331
+
+
+
+TRACE: x264.br.trace
+CONF: -N 10
+SIMULATION CONFIGURATION
+G:          10
+P:          10
+N:          10
+Predictor:  Gshare
+SETUP COMPLETE - STARTING SIMULATION
+
+SIMULATION OUTPUT
+Total Instructions:                 97307048
+Total Branch Instructions:          10000000
+Branches Correctly Predicted:       8172048
+Branches Miss Predicted:            1827952
+Misses Per Kilo Instructions:       18
+Number of Tag conflicts             3052199
+Fraction Branch Instructions:       0.10276748
+Branch Prediction accuracy:         0.81720480
+Total Stages in the Pipeline:       10
+Branch Miss Prediction Stalls:      4
+Average CPI:                        1.07514161
+
+
+
